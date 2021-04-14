@@ -1,7 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   background-color: aquamarine;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.post-feed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 1000px;
 }

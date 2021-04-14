@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
 .container {
-    width: 750px;
+    width: 600px;
     display: flex;
     flex-direction: row;
-    padding-top: 12.5px;
+    padding-top: 15px;
     border: 1px solid;
-    border-radius: 12.5px;
+    border-radius: 10px;
     background-color: #ffffff;
 }
 
@@ -33,7 +35,7 @@
   align-items: baseline;
   gap: 15px;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .user-name {
@@ -42,15 +44,14 @@
 
 
 .post-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 15px;
   width: 100%;
 }
 
 .post-image {
   border-radius: 15px;
-  max-width: 100%; 
-  height: auto; 
+  width: 100%; 
   display: block;
   margin-top: 15px;
 }
