@@ -19,6 +19,11 @@
     height: 50px;
 }
 
+.user-avatar img {
+  width: 55%;
+  height: 100%;
+  border-radius: 50%;
+}
 
 .post-body {
   padding-right: 12.5px;
@@ -56,3 +61,18 @@
   margin-top: 15px;
 }
 
+.post-networks{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.post-networks img{
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.network-logo{
+  margin-right: 35px;
+}
